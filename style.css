@@ -9,3 +9,28 @@ body {
   background-color: lightgray;
   font-family: sans-serif;
 }
+
+h1 {
+  text-align: center;
+  color: ;
+}
+
+h2 {
+  text-align: left;
+  color: rgba(3, 102, 16, 0.986);
+  border-bottom: black;
+}
+
+section {
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding: 5px;
+
+}
+
+body { 
+  background-color: rgb(202, 199, 199);
+}
