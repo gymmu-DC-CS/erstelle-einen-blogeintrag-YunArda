@@ -12,7 +12,14 @@ body {
 
 h1 {
   text-align: center;
-  color: ;
+  color: darkgreen;
+  border-bottom: 2pt solid;
+  width: fit-content;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  border-color: darkgreen;
+
 }
 
 h2 {
@@ -28,9 +35,26 @@ section {
   margin-right: auto;
   background-color: whitesmoke;
   padding: 5px;
+  padding-bottom: 20px;
 
 }
 
 body { 
   background-color: rgb(202, 199, 199);
 }
+
+img[name="Ronaldo"] {
+  float: right;
+  width: 200px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  
+}
+
+.zentrieren {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+
