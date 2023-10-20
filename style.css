@@ -12,17 +12,10 @@ body {
 }
 
 
-
-
-
-
-h2 {
-  text-align: left;
-  color: rgba(3, 102, 16, 0.986);
-  border-bottom: 2pt solid;
-  width: fit-content;
-  animation: changeColor 5s linear infinite;
-  size: a;
+.fusszeile {
+  text-align: center;
+  color: #333;
+  background-color: darkgray;
 }
 
 @keyframes changeColor{
@@ -57,13 +50,13 @@ section {
 }
 
 body { 
-  background-color: beige;
+  background-color: gainsboro;
   margin: 0;
 }
 * {
   box-sizing: border-box;
 }
-
+/* Ziel war, dass beide bilder im text sind, jedoch nicht über den Text gehen */
 img[name="Ronaldo"] {
   float: right;
   width: 150px;
@@ -88,7 +81,7 @@ img[name="Ronaldo"] {
   margin-right: auto;
   padding-bottom: 100px;
 }
-
+/* mit diesem Befehl, wollte ich die links so gestalten, dass sie identisch mit dem Text darunter sind */
 a {
   color: green;
   animation: changeColor 5s linear infinite;
@@ -99,10 +92,14 @@ body {
 }
 
 .header {
-  background-color: darkgrey;
+  background-color: darkgray;
   padding: 20px;
   text-align: center;
+  animation: changeHeader 5s linear infinite;
 }
+
+
+
 h1 {
   text-align: center;
   color: black;
@@ -113,7 +110,7 @@ h1 {
   margin-right: auto;
   border-color: black;
 }
-
+/* quellen nebeneinander und identisch */
 .Quellen a {
   float: left;
   display: block;
@@ -133,6 +130,7 @@ h1 {
   background-color: grey
   ;
 }
+/* geordnete textspalten => 3 spalten, also 33,3% */
 .spalten {
   float: left;
   width: 33.33%;
