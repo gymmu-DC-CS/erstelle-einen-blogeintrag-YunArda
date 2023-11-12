@@ -6,6 +6,134 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: green;
   font-family: sans-serif;
+  
 }
+
+
+.fusszeile {
+  text-align: center;
+  color: #333;
+  background-color: darkgray;
+}
+
+@keyframes changeColor{
+ 0% {
+  color: darkgreen;
+ }
+ 50% {
+  color: #333;
+ }
+ 100% {
+  color: darkgreen;
+ }
+  }
+
+h3 {
+  text-align: left;
+  color: rgba(3, 102, 16, 0.986);
+  width: fit-content;
+  animation: changeColor 5s linear infinite;
+}
+
+section {
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  border-bottom-left-radius:40px  ; 
+  border-bottom-right-radius: 40px;
+}
+
+body { 
+  background-color: gainsboro;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/* Ziel war, dass beide bilder im text sind, jedoch nicht über den Text gehen */
+img[name="Ronaldo"] {
+  float: right;
+  width: 150px;
+  border: 5xp solid black;
+  border-width: 5px;
+  border-radius: 10px;
+}
+ 
+ img[name="PKK"] {
+  width: 250px;
+  float: left;
+  height: auto;
+  border: 5px solid red;
+  border-radius: 5px;
+ }
+
+
+
+.zentrieren {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+/* mit diesem Befehl, wollte ich die links so gestalten, dass sie identisch mit dem Text darunter sind */
+a {
+  color: green;
+  animation: changeColor 5s linear infinite;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: darkgray;
+  padding: 20px;
+  text-align: center;
+  animation: changeHeader 5s linear infinite;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: black;
+  border-bottom: 2pt solid;
+  width: fit-content;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  border-color: black;
+}
+/* quellen nebeneinander und identisch */
+.Quellen a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Quellen a:hover {
+  background-color: white;
+  color: black;
+}
+
+.Quellen {
+  overflow: hidden;
+  background-color: grey
+  ;
+}
+/* geordnete textspalten => 3 spalten, also 33,3% */
+.spalten {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
